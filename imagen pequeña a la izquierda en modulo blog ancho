@@ -1,11 +1,13 @@
-/*imagen destacada en línea con el extracto en el módulo blog de ancho completo*/
+/*Imagen destacada a la izquierda en el blog*/ 
+.et_pb_post a img{
+  height: 200px!important;
+  float: left;
+  width: 400px;
+  left: 0;
+  padding-right: 14px;}
  
-    .et_pb_posts .et_pb_post a img {
-            max-width: 210px!important;
-            float: left;
-            padding-right: 20px;}
- 
-    @media only screen and (max-width: 980px) {
-        .et_pb_posts .et_pb_post a img{
-            float:none;
-            max-width: 250px!important;}}
+@media only screen and (max-width: 980px) {
+.et_pb_post a img{
+  float:none;
+  width:400px;
+  height:200px;}} 
